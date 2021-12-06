@@ -1,0 +1,11 @@
+.blue_gradient {
+  background: -webkit-linear-gradient(180deg, #4facfe 0%, #00f2fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green_gradient {
+  background: -webkit-linear-gradient(180deg, #43e97b 0%, #38f9d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

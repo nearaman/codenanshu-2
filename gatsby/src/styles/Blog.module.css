@@ -1,0 +1,91 @@
+.post {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.post > h1, .post >h2, .post >h3, .post >h4,.post >h5,.post >h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post > p {
+    color: #c9e2f0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.post > h2 {
+    color : #ecf8ff;
+    font-size: x-large;
+    font-weight: bold;
+}
+.post > h3 {
+    color : #ecf8ff;
+    font-size: large;
+    font-weight: bold;
+}
+
+.post > h5, .post > h6{
+    color : #ecf8ff;
+}
+
+.post > h4 {
+    color : #ecf8ff;
+    font-weight: bold;
+}
+
+.post > img {
+    border-radius: 0.25rem;
+}
+
+.post :any-link {
+    background: 
+    linear-gradient(to right, rgb(48, 252, 133), rgb(47, 233, 109)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    padding-bottom: 2px;
+    color: #c9e2f0;
+}
+
+.post :any-link:hover, .post :any-link:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+}
+
+.post ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post li {
+    color: #b7d3e4;
+    padding: 2px;
+}
+
+.post ins {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.post > blockquote {
+    color : #b7d3e4;
+    font-style: italic;
+    background-color: #0f171d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* media queires goes from here */
+
+@media only screen and (max-width: 600px) {
+    .post > p {
+        font-size: 1.03rem;
+    }
+    .post > h4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

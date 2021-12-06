@@ -1,0 +1,56 @@
+{
+  "name": "codenanshu",
+  "private": true,
+  "description": "A content based plateform for developers",
+  "version": "2.0.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "@giscus/react": "^1.0.1",
+    "@headlessui/react": "^1.4.1",
+    "algoliasearch": "^4.11.0",
+    "gatsby": "^4.1.0",
+    "gatsby-awesome-pagination": "^0.3.8",
+    "gatsby-plugin-algolia": "^0.24.0",
+    "gatsby-plugin-image": "^2.1.0",
+    "gatsby-plugin-react-helmet": "^5.1.0",
+    "gatsby-plugin-sharp": "^4.1.0",
+    "gatsby-remark-copy-linked-files": "^5.1.0",
+    "gatsby-remark-images": "^6.2.0",
+    "gatsby-remark-prismjs": "^6.1.0",
+    "gatsby-remark-responsive-iframe": "^5.1.0",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-remark": "^5.3.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "react": "^17.0.1",
+    "react-adsense": "^0.1.0",
+    "react-dom": "^17.0.1",
+    "react-fade-in": "^2.0.1",
+    "react-helmet": "^6.1.0",
+    "rehype-react": "^7.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "dotenv": "^10.0.0",
+    "gatsby-plugin-postcss": "^5.1.0",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
