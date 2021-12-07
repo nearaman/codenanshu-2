@@ -7,7 +7,7 @@ export default function Blog(){
 
 	React.useEffect(()=> {
 		fetch("http://localhost:5000/all_articles/blog").then(res=> res.json()).then(res=> setData(res))
-	})
+	},[])
 
 	return (
 		<DashboardContent>

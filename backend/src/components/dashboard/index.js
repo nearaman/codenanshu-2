@@ -9,6 +9,7 @@ import Blog from './pages/Blog'
 import Notes from './pages/Notes'
 import Tutorials from './pages/Tutorials'
 import New from './pages/New'
+import Edit from './pages/Edit'
 
 export default function UI(){
 	return (
@@ -19,6 +20,7 @@ export default function UI(){
       <Route path="/tutorials" element={<Tutorials />}/>
       <Route path="/notes" element={<Notes />}/>
       <Route path="/new" element={<New />}/>
+      <Route path="/edit/:category/:slug" element={<Edit />}/>
     </Routes>
   </BrowserRouter>
 	)

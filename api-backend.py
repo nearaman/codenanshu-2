@@ -6,6 +6,7 @@ from sys import path
 from os import walk
 import os.path
 import frontmatter
+from werkzeug.utils import secure_filename
 
 # Flask constructor takes the name of
 # current module (__name__) as argument.
@@ -27,7 +28,7 @@ def hello_world():
 
 @app.route('/create_post', methods=["POST"])
 @cross_origin()
-def return_image():
+def create_post():
 	file = request.files['image']
 	info = {
 		"title": request.form['title'],
@@ -35,8 +36,20 @@ def return_image():
 		"date": request.form['date'],
 		"slug": request.form['slug'],
 		"category": request.form['category'],
-		"image": file.filename
+		"image": file.filename,
+		"content": request.form['content']
 	}
+
+	notes_path = path[0] + contant_dir + f"{info['category']}/" + info['slug'] + "/"
+	os.mkdir(notes_path)
+	filename = "index.md"
+
+	if file.filename != "":
+		file.save(os.path.join(notes_path, secure_filename(file.filename)))
+
+	with open(os.path.join(notes_path, filename), 'wb') as temp_file:
+    		temp_file.write(bytes(info['content'], 'utf-8'))
+
 	return info
 
 # how many post api
@@ -83,10 +96,23 @@ def how_many_blogposts(category):
 	            	posts.append({
 	            			"title": post['title'],
 	            			"date": post['date'],
-	            			"slug": post['slug']
+	            			"slug": post['slug'],
+	            			"category": post['category']
 	            		})
 
 	return jsonify(posts)
+
+# for edit the post
+@app.route('/edit/<category>/<slug>')
+@cross_origin()
+def edit(category, slug):
+	route = path[0] + contant_dir + f"{category}/" + f"{slug}"
+	file = "index.md"
+	post = frontmatter.load(os.path.join(route, file))
+
+	return jsonify({
+			"title": post['title']
+		})
 
 # main driver function
 if __name__ == '__main__':
