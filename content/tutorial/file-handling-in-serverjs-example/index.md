@@ -60,4 +60,4 @@ server([
 ])
 ```
 
-these are some examples of file handling in serverjs. all of these examples are taken from the [official documentation](https://serverjs.io/documentation/) of the library and don't forget to check out my other amazing [tutorials](/tutorials/)
+these are some examples of file handling in serverjs. all of these examples are taken from the [official documentation](https://serverjs.io/documentation/) of the library and don't forget to check out my other amazing [tutorials](/tutorial/)
