@@ -14,7 +14,6 @@ programming is really amazing in my life but from some days i am facing some pro
 so lets started and find the best app for note taking online first i Google for that and i found some like [EverNote](https://evernote.com) or some more web app these are fine but the problem some are not free and some give so many problem for the programming purpose so let find some more so i don't have nought information related to that but i but some of these application online
 
 ![Absolutely Best Note Taking Tool Ever Made For Programmers](https://cdn.hashnode.com/res/hashnode/image/upload/v1616595233897/NzGTS3Nj0.png)
-<adsense></<adsense>
 
 1. Ever-note
 
