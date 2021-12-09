@@ -32,7 +32,7 @@ export default function Search() {
 
   const handleKeyDown = ev => {
     // check keys if you want
-    if (ev.keyCode == 27) {
+    if (ev.keyCode === 27) {
       setIsOpen(false)
     }
   }
@@ -112,7 +112,7 @@ export default function Search() {
           />
         </svg>
       </button>
-      <p className="mx-2 cursor-pointer hidden lg:flex" onClick={openModal}>
+      <p className="mx-2 cursor-pointer hidden lg:flex" aria-hidden="true" onClick={openModal}>
         Search
       </p>
     </div>

@@ -378,7 +378,7 @@ export default function Home({ data }) {
                 </Link>
                 <Link
                   className="link"
-                  to="https://instagram.com/aianshume"
+                  to="https://instagram.com/aianshu"
                   data-tippy-content="@instagram_handle"
                 >
                   <svg

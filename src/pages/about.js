@@ -3,7 +3,6 @@ import Layout from "../components/Layout"
 import { green_gradient } from "../styles/Gradient.module.css"
 import { post } from "../styles/Blog.module.css"
 import { Link } from "gatsby"
-import Svghero from "../components/shortcodes/Svghero"
 
 export default function About() {
   return (
@@ -23,9 +22,9 @@ export default function About() {
                   paddingTop: "112.342%",
                   cursor: "default",
                 }}
-                className="jsx-2138244745 img-blur"
+                className="img-blur"
               >
-                <div className="jsx-2138244745 absolute top-0 left-0">
+                <div className="absolute top-0 left-0">
                   <span
                     style={{
                       boxSizing: "border-box",
@@ -69,13 +68,13 @@ export default function About() {
                           margin: 0,
                           padding: 0,
                         }}
-                        alt
+                        alt="anshu meena profile"
                         aria-hidden="true"
                         src="/aianshume.webp"
                       />
                     </span>
                     <img
-                      alt="Photo of me"
+                      alt="aianshume profile"
                       title="Photo of me"
                       src="/aianshume.webp"
                       decoding="async"
@@ -108,9 +107,9 @@ export default function About() {
                 2019, which is the start of the pandemic. I have nothing much to
                 do so I decided to learn web development from a youtube course,
                 then started watching a bunch of{" "}
-                <a href="https://youtube.com/c/CodeNanshu">
+                <Link to="https://youtube.com/c/CodeNanshu">
                   <span>youtube videos</span>
-                </a>{" "}
+                </Link>{" "}
                 to explore more about web development especially frontend
                 development.
               </p>
