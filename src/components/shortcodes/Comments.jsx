@@ -1,5 +1,5 @@
-import { Giscus } from "@giscus/react"
-import React from "react"
+import { Giscus } from "@giscus/react";
+import React from "react";
 
 export default function Comment() {
   return (
@@ -16,5 +16,5 @@ export default function Comment() {
         theme="dark_high_contrast"
       />
     </div>
-  )
+  );
 }

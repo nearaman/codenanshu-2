@@ -42,18 +42,18 @@ Now that we know which event properties we need to reference we can begin to pai
 Based on the properties we learned about above, the code for registering these shortcuts would look something like this:
 
 ```javascript
-window.addEventListener("keydown", event => {
+window.addEventListener("keydown", (event) => {
   /*Allows for a case-insensitive shortcut*/
   if (event.ctrlKey && (event.key === "S" || event.key === "s")) {
-    event.preventDefault()
-    alert("Save File 💾")
+    event.preventDefault();
+    alert("Save File 💾");
   }
 
   if (event.ctrlKey && (event.key === "C" || event.key === "c")) {
-    event.preventDefault()
-    alert("Copy Selection ✂️")
+    event.preventDefault();
+    alert("Copy Selection ✂️");
   }
-})
+});
 ```
 
 # React Example with Hooks ⚓
@@ -64,40 +64,40 @@ For example, if we want to register a keydown handler that gets set when a compo
 
 ```javascript
 useEffect(() => {
-  const handleKeyDown = event => {
+  const handleKeyDown = (event) => {
     if (event.ctrlKey && (event.key === "C" || event.key === "c")) {
-      event.preventDefault()
-      alert("Copy Selection ✂️")
+      event.preventDefault();
+      alert("Copy Selection ✂️");
     }
-  }
+  };
 
-  window.addEventListener("keydown", handleKeyDown)
+  window.addEventListener("keydown", handleKeyDown);
   return () => {
     /*removes event listener on cleanup*/
-    window.removeEventListener("keydown", handleKeyDown)
-  }
-}, [])
+    window.removeEventListener("keydown", handleKeyDown);
+  };
+}, []);
 ```
 
 As an alternative, if you want to have your keydown handler defined outside of the `useEffect` because it has its own set of dependencies that it needs to keep track of, you could make use of the [useCallback hook](https://reactjs.org/docs/hooks-reference.html#usecallback) and set it up like so:
 
 ```javascript
 const handleKeyDown = useCallback(
-  event => {
+  (event) => {
     if (event.ctrlKey && (event.key === "S" || event.key === "s")) {
-      event.preventDefault()
-      alert("Save File 💾")
+      event.preventDefault();
+      alert("Save File 💾");
     }
   },
   [props.someDependency]
-)
+);
 
 useEffect(() => {
-  window.addEventListener("keydown", handleKeyDown)
+  window.addEventListener("keydown", handleKeyDown);
   return () => {
-    window.removeEventListener("keydown", handleKeyDown)
-  }
-}, [handleKeyDown])
+    window.removeEventListener("keydown", handleKeyDown);
+  };
+}, [handleKeyDown]);
 ```
 
 ### El Fin 👋🏽

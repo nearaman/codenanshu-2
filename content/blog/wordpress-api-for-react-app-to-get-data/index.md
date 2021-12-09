@@ -36,18 +36,18 @@ so this is the api now we need to add posts in the URL and then fetch the api
 in react js
 
 ```javascript
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react";
 
 export default function App() {
-  const data = ([data, setData] = useState([]))
+  const data = ([data, setData] = useState([]));
 
   useEffect(() => {
     fetch("https://techcrunch.com/wp-json/wp/v2/posts")
-      .then(res => res.json())
-      .then(info => setData(info))
-  }, [])
+      .then((res) => res.json())
+      .then((info) => setData(info));
+  }, []);
 
-  return <h1>{data.title.rendered}</h1>
+  return <h1>{data.title.rendered}</h1>;
 }
 ```
 

@@ -1,11 +1,11 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/Layout"
-import { green_gradient } from "../styles/Gradient.module.css"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import Layout from "../components/Layout";
+import { green_gradient } from "../styles/Gradient.module.css";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function Tutorial(props) {
-  const allPostsData = props.data.allMarkdownRemark.nodes
+  const allPostsData = props.data.allMarkdownRemark.nodes;
 
   return (
     <Layout>
@@ -16,8 +16,8 @@ export default function Tutorial(props) {
         <div className="py-12 sm:px-6 lg:py-16 lg:px-8">
           <div className=" mx-auto max-w-7xl">
             <div className="grid max-w-lg gap-14 mx-auto lg:grid-cols-3 lg:max-w-none">
-              {allPostsData.map(post => {
-                const reImage = getImage(post.frontmatter.image)
+              {allPostsData.map((post) => {
+                const reImage = getImage(post.frontmatter.image);
                 return (
                   <Link to={`/tutorial/${post.frontmatter.slug}`} id={post.id}>
                     <div className="flex w-full">
@@ -39,7 +39,7 @@ export default function Tutorial(props) {
                       </div>
                     </div>
                   </Link>
-                )
+                );
               })}
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function Tutorial(props) {
         </div>
       </section>
     </Layout>
-  )
+  );
 }
 
 export const query = graphql`
@@ -89,4 +89,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

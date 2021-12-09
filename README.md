@@ -19,7 +19,7 @@ _Want To Read Blog? You may want to check out our blog post [official on codeNan
     Use the Codenanshu CLI to create a new post, by filling the starter template.
 
     ```shell
-    # use [blog, tutorial, notes] after new to generate template 
+    # use [blog, tutorial, notes] after new to generate template
     npx hygen new blog
     ```
 
@@ -73,7 +73,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 4.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-5. **`.hygen.js`**: this file have function to get current date and time in starter template with hygen
+5.  **`.hygen.js`**: this file have function to get current date and time in starter template with hygen
 
 6.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
@@ -83,7 +83,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 9.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-10.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+10. **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
 11. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 

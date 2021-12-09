@@ -1,7 +1,7 @@
-import React from "react"
-import Navbar from "./partials/Navbar"
-import Footer from "./partials/Footer"
-import FadeIn from "react-fade-in"
+import React from "react";
+import Navbar from "./partials/Navbar";
+import Footer from "./partials/Footer";
+import FadeIn from "react-fade-in";
 
 export default function Layout({ children, style }) {
   return (
@@ -12,5 +12,5 @@ export default function Layout({ children, style }) {
       </div>
       <Footer />
     </div>
-  )
+  );
 }

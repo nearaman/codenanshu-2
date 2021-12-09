@@ -1,6 +1,6 @@
-require("dotenv").config()
+require("dotenv").config();
 
-const indexName = process.env.ALGOLIA_INDEX_NAME
+const indexName = process.env.ALGOLIA_INDEX_NAME;
 
 const pageQuery = `
 query search {
@@ -17,7 +17,7 @@ query search {
   }
 }
 
-`
+`;
 
 function pageToAlgoliaRecord({ id, frontmatter }) {
   return {
@@ -25,7 +25,7 @@ function pageToAlgoliaRecord({ id, frontmatter }) {
     title: frontmatter.title,
     description: frontmatter.description,
     slug: `/${frontmatter.category}/${frontmatter.slug}`,
-  }
+  };
 }
 
 const queries = [
@@ -36,6 +36,6 @@ const queries = [
     indexName,
     settings: { attributesToSnippet: [`excerpt:20`] },
   },
-]
+];
 
-module.exports = queries
+module.exports = queries;

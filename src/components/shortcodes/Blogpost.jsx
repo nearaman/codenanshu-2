@@ -1,15 +1,15 @@
-import React from "react"
-import Layout from "../Layout"
-import Seo from "../shortcodes/seo"
-import { post } from "../../styles/Blog.module.css"
-import { graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import Comments from "./Comments"
+import React from "react";
+import Layout from "../Layout";
+import Seo from "../shortcodes/seo";
+import { post } from "../../styles/Blog.module.css";
+import { graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import Comments from "./Comments";
 
 export default function Blogpost({ data }) {
-  const { title, date, description } = data.markdownRemark.frontmatter
-  const html = data.markdownRemark.html
-  const image = getImage(data.markdownRemark.frontmatter.image)
+  const { title, date, description } = data.markdownRemark.frontmatter;
+  const html = data.markdownRemark.html;
+  const image = getImage(data.markdownRemark.frontmatter.image);
 
   return (
     <Layout>
@@ -37,23 +37,27 @@ export default function Blogpost({ data }) {
       </article>
       <Comments />
     </Layout>
-  )
+  );
 }
 
 export const query = graphql`
   query ProjectDetails($slug: String) {
-  markdownRemark(frontmatter: {slug: {eq: $slug}}) {
-    frontmatter {
-      title
-      date
-      description
-      image {
-        childImageSharp {
-          gatsbyImageData(width: 612, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      frontmatter {
+        title
+        date
+        description
+        image {
+          childImageSharp {
+            gatsbyImageData(
+              width: 612
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
         }
       }
+      html
     }
-    html
   }
-}
-`
+`;

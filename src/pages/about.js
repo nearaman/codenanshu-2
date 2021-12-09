@@ -1,8 +1,8 @@
-import React from "react"
-import Layout from "../components/Layout"
-import { green_gradient } from "../styles/Gradient.module.css"
-import { post } from "../styles/Blog.module.css"
-import { Link } from "gatsby"
+import React from "react";
+import Layout from "../components/Layout";
+import { green_gradient } from "../styles/Gradient.module.css";
+import { post } from "../styles/Blog.module.css";
+import { Link } from "gatsby";
 
 export default function About() {
   return (
@@ -130,5 +130,5 @@ export default function About() {
         </div>
       </section>
     </Layout>
-  )
+  );
 }

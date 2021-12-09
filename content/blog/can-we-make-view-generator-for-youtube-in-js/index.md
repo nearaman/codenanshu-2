@@ -42,13 +42,13 @@ at the bottom of the code before the body tag is closing you need to paste the f
 
 ```html
 <script>
-  window.setInterval("refresh()", 10000)
+  window.setInterval("refresh()", 10000);
   // Call a function every 10000 milliseconds
   // (OR 10 seconds).
 
   // Refresh or reload page.
   function refresh() {
-    window.location.reload()
+    window.location.reload();
   }
 </script>
 ```

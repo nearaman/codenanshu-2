@@ -17,15 +17,15 @@ using the [SuperTest](https://www.npmjs.com/package/supertest) npm package.
 SuperTest is built on top of [SuperAgent](https://github.com/visionmedia/superagent) which basically allows you to make HTTP requests and SuperTest provides a high-level abstraction for testing those HTTP requests. Let's take a look at an example:
 
 ```javascript
-const request = require("supertest")
+const request = require("supertest");
 request()
   .get("/user") // access user route
   .expect("Content-Type", /json/) // verify the content type
   .expect("Content-Length", "15")
   .expect(200) // verify the status code
   .end(function (err, res) {
-    if (err) throw err // any additional code
-  })
+    if (err) throw err; // any additional code
+  });
 ```
 
 Enter fullscreen mode Exit fullscreen mode
@@ -50,9 +50,9 @@ describe("Array", function () {
     it("should return -1 when the value is not present", function () {
       // it block is where you will run your test
       // any verification here...
-    })
-  })
-})
+    });
+  });
+});
 ```
 
 Enter fullscreen mode Exit fullscreen mode
@@ -66,9 +66,9 @@ describe("GET /user", function () {
       .get("/user")
       .set("Accept", "application/json")
       .expect("Content-Type", /json/)
-      .expect(200, done)
-  })
-})
+      .expect(200, done);
+  });
+});
 ```
 
 Enter fullscreen mode Exit fullscreen mode
@@ -85,16 +85,16 @@ Let's take a look at some Chai assertion example -
 
 ```javascript
 // Using chai.should();
-foo.should.be.a("string")
-foo.should.equal("bar")
+foo.should.be.a("string");
+foo.should.equal("bar");
 
 // Using chai.expect
-expect(foo).to.be.a("string")
-expect(foo).to.equal("bar")
+expect(foo).to.be.a("string");
+expect(foo).to.equal("bar");
 
 // Using chai.assert
-assert.typeOf(foo, "string")
-assert.equal(foo, "bar")
+assert.typeOf(foo, "string");
+assert.equal(foo, "bar");
 ```
 
 Enter fullscreen mode Exit fullscreen mode

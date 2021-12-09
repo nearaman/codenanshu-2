@@ -28,11 +28,11 @@ here you can see that the client tries to send a photo to the endpoint
 now take a look at our backend code written in serverjs
 
 ```javascript
-const mid = post("/profilepic", ctx => {
+const mid = post("/profilepic", (ctx) => {
   // This comes from the "name" in the input field
-  console.log(ctx.files.profilepic)
-  return redirect("/profile")
-})
+  console.log(ctx.files.profilepic);
+  return redirect("/profile");
+});
 ```
 
 in this code, you can see that we accept the photo using `ctx.files.profilepic`
@@ -44,7 +44,7 @@ Serverjs provides a very easy interface to access files of the server it works l
 Send a file to the browser with the correct mime type:
 
 ```javascript
-server(ctx => file("user-profile-5674354.png"))
+server((ctx) => file("user-profile-5674354.png"));
 ```
 
 It does not accept a name since the user is not prompted for download. It will stream the file, so that no files are read fully into memory.
@@ -53,11 +53,11 @@ You can handle errors for this method downstream:
 
 ```javascript
 server([
-  ctx => file("user-profile-5674354.png"),
-  error(ctx => {
-    console.log(ctx.error)
+  (ctx) => file("user-profile-5674354.png"),
+  error((ctx) => {
+    console.log(ctx.error);
   }),
-])
+]);
 ```
 
 these are some examples of file handling in serverjs. all of these examples are taken from the [official documentation](https://serverjs.io/documentation/) of the library and don't forget to check out my other amazing [tutorials](/tutorial/)

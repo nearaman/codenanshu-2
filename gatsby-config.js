@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
- require("dotenv").config();
+require("dotenv").config();
 
 module.exports = {
   /* Your site config here */
@@ -74,8 +74,8 @@ module.exports = {
       options: {
         appId: process.env.ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries: require("./src/components/utils/algolia-queries")
-      }
+        queries: require("./src/components/utils/algolia-queries"),
+      },
     },
   ],
-}
+};

@@ -1,41 +1,41 @@
-import React, { useState } from "react"
-import algoliasearch from "algoliasearch/lite"
-import { Dialog } from "@headlessui/react"
-import { Link } from "gatsby"
+import React, { useState } from "react";
+import algoliasearch from "algoliasearch/lite";
+import { Dialog } from "@headlessui/react";
+import { Link } from "gatsby";
 
 export default function Search() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [searchResults, setSearchResults] = useState([])
+  const [isOpen, setIsOpen] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
 
   const searchClient = algoliasearch(
     "MTODELXQZS",
     "bd6ef49e53779e0783dfafa5e93763c2"
-  )
+  );
 
-  const search_client = searchClient.initIndex("docsearch")
-  const requestOptions = {}
+  const search_client = searchClient.initIndex("docsearch");
+  const requestOptions = {};
 
   function closeModal() {
-    setIsOpen(false)
+    setIsOpen(false);
   }
 
   function openModal() {
-    setIsOpen(true)
+    setIsOpen(true);
   }
 
   async function Query(e) {
-    e.preventDefault()
+    e.preventDefault();
     search_client.search(e.target.value, requestOptions).then(({ hits }) => {
-      setSearchResults(hits)
-    })
+      setSearchResults(hits);
+    });
   }
 
-  const handleKeyDown = ev => {
+  const handleKeyDown = (ev) => {
     // check keys if you want
     if (ev.keyCode === 27) {
-      setIsOpen(false)
+      setIsOpen(false);
     }
-  }
+  };
 
   return (
     <div>
@@ -77,14 +77,14 @@ export default function Search() {
 
           <div>
             <ul className="overflow-y-auto">
-              {searchResults.map(res => {
+              {searchResults.map((res) => {
                 return (
                   <Link to={res.slug}>
                     <li className="bg-Black mx-5 my-3 p-1 text-textWhiteBlue rounded">
                       {res.title}
                     </li>
                   </Link>
-                )
+                );
               })}
             </ul>
           </div>
@@ -112,9 +112,13 @@ export default function Search() {
           />
         </svg>
       </button>
-      <p className="mx-2 cursor-pointer hidden lg:flex" aria-hidden="true" onClick={openModal}>
+      <p
+        className="mx-2 cursor-pointer hidden lg:flex"
+        aria-hidden="true"
+        onClick={openModal}
+      >
         Search
       </p>
     </div>
-  )
+  );
 }

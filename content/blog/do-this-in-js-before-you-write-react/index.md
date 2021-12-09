@@ -15,31 +15,31 @@ As a matter of fact, let me give you a tour to some quick essentials before you 
 The spread come in very handy when you need to manipulate the arrays or objects. Let's see an example here
 
 ```javascript
-const books = ["Atomic Habits", "Psychology of Money", "Obstacle is the way"]
-const newBooks = books
-console.log(books)
+const books = ["Atomic Habits", "Psychology of Money", "Obstacle is the way"];
+const newBooks = books;
+console.log(books);
 //output: [ 'Atomic Habits', 'Psychology of Money', 'Obstacle is the way' ]
-console.log(newBooks)
+console.log(newBooks);
 //output: [ 'Atomic Habits', 'Psychology of Money', 'Obstacle is the way' ]
 ```
 
 This seems fine so far right. But is it ? Let's see now
 
 ```javascript
-newBooks.push("Metamorphosis", "Hooked")
-console.log(books)
+newBooks.push("Metamorphosis", "Hooked");
+console.log(books);
 //output:[ 'Atomic Habits', 'Psychology of Money', 'Obstacle is the way', 'Metamorphosis', 'Hooked' ]
 ```
 
 Wait what? But we didn't even change books array. This happens because arrays are reference types in JavaScript. So its just the reference of books stored in the newbooks. Lets look at how spread operator helps to fix this.
 
 ```javascript
-const books = ["Atomic Habits", "Psychology of Money", "Obstacle is the way"]
-const moreBooks = [...books] //spread operator
-moreBooks.push("Metamorphosis", "Hooked")
-console.log(books)
+const books = ["Atomic Habits", "Psychology of Money", "Obstacle is the way"];
+const moreBooks = [...books]; //spread operator
+moreBooks.push("Metamorphosis", "Hooked");
+console.log(books);
 //output: [ 'Atomic Habits', 'Psychology of Money', 'Obstacle is the way' ]
-console.log(moreBooks)
+console.log(moreBooks);
 //output: [ 'Atomic Habits', 'Psychology of Money', 'Obstacle is the way', 'Metamorphosis', 'Hooked']
 ```
 
@@ -51,12 +51,12 @@ Introduce with ES6 Arrow Functions are the concise and compact implementation of
 
 ```javascript
 function firstFunction() {
-  console.log("Hey I'm a 'regular' function")
+  console.log("Hey I'm a 'regular' function");
 }
-firstFunction() //Hey I'm a 'regular' function
+firstFunction(); //Hey I'm a 'regular' function
 
-const secondFunction = () => console.log("Hey I'm an 'arrow' function")
-secondFunction() //Hey I'm an 'arrow' function
+const secondFunction = () => console.log("Hey I'm an 'arrow' function");
+secondFunction(); //Hey I'm an 'arrow' function
 ```
 
 Further Reading:  
@@ -69,18 +69,18 @@ Destructing assignment makes it easy to extract the value from arrays or propert
 #### Array Destructing
 
 ```javascript
-const array = [1, 3, 5]
+const array = [1, 3, 5];
 
 //Regular Way
-const a = array[0]
-const b = array[1]
-const c = array[2]
+const a = array[0];
+const b = array[1];
+const c = array[2];
 
-console.log(a, b, c) //1 3 5
+console.log(a, b, c); //1 3 5
 
 //Using Destructing
-const [a, b, c] = array
-console.log(a, b, c) // 1 3 5
+const [a, b, c] = array;
+console.log(a, b, c); // 1 3 5
 ```
 
 #### Object Destructing
@@ -90,22 +90,22 @@ console.log(a, b, c) // 1 3 5
 const batman = {
   catchphrase: "I am batman",
   strength: "I am rich",
-}
-const catchphrase = batman.catchphrase
-const strength = batman.strength
+};
+const catchphrase = batman.catchphrase;
+const strength = batman.strength;
 
-console.log(catchphrase, strength) // I am batman  I am rich
+console.log(catchphrase, strength); // I am batman  I am rich
 
 //Using  Destrcuting
-const { catchphrase, strength } = batman
+const { catchphrase, strength } = batman;
 
-console.log(catchphrase, strength) // I am batman  I am rich
+console.log(catchphrase, strength); // I am batman  I am rich
 ```
 
 This comes really handy when you are using hooks like useState in React.
 
 ```javascript
-const [state, setState] = useState(initialState)
+const [state, setState] = useState(initialState);
 ```
 
 Read more about destructing here [MDN Destructing Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
@@ -115,13 +115,13 @@ Read more about destructing here [MDN Destructing Assignment](https://developer.
 Template Literals or sometimes called template strings are just like string literals but with the power of multiline strings, string formatting and HTML escaping for safe use in HTML. We use backticks with template literals `` (` `) ``. Let's an example then:
 
 ```javascript
-const username = "James"
-const age = 23
-console.log(username + " " + "is" + " " + age + " " + "years old")
+const username = "James";
+const age = 23;
+console.log(username + " " + "is" + " " + age + " " + "years old");
 //James is 23 years old
 
 //String Formatting using Template Literals
-console.log(`${username} is ${age} years old`)
+console.log(`${username} is ${age} years old`);
 //James is 23 James old
 ```
 

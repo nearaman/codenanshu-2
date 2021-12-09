@@ -1,15 +1,15 @@
-import React from "react"
-import Layout from "../components/Layout"
-import Seo from "../components/shortcodes/seo"
-import Svghero from "../components/shortcodes/Svghero"
-import { blue_gradient, green_gradient } from "../styles/Gradient.module.css"
-import { graphql, Link } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { pattern_dots_md } from "../styles/Patterns.module.css"
+import React from "react";
+import Layout from "../components/Layout";
+import Seo from "../components/shortcodes/seo";
+import Svghero from "../components/shortcodes/Svghero";
+import { blue_gradient, green_gradient } from "../styles/Gradient.module.css";
+import { graphql, Link } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { pattern_dots_md } from "../styles/Patterns.module.css";
 
 export default function Home({ data }) {
-  const BlogpostData = data.blog.nodes
-  const tutorialPostData = data.tutorial.nodes
+  const BlogpostData = data.blog.nodes;
+  const tutorialPostData = data.tutorial.nodes;
 
   return (
     <Layout>
@@ -64,7 +64,7 @@ export default function Home({ data }) {
             </Link>
           </div>
           <div class="flex flex-wrap -m-4">
-            {BlogpostData.map(post => {
+            {BlogpostData.map((post) => {
               return (
                 <div class="p-4 md:w-1/4">
                   <div
@@ -96,7 +96,7 @@ export default function Home({ data }) {
                     </Link>
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
@@ -115,8 +115,8 @@ export default function Home({ data }) {
             </Link>
           </div>
           <div class="flex flex-wrap -m-4">
-            {tutorialPostData.map(post => {
-              const reImage = getImage(post.frontmatter.image)
+            {tutorialPostData.map((post) => {
+              const reImage = getImage(post.frontmatter.image);
               return (
                 <div className="overflow-hidden shadow-lg md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-5 md:hover:shadow-2xl rounded-lg h-90 w-80 mb-10 cursor-pointer m-auto">
                   <Link
@@ -138,7 +138,7 @@ export default function Home({ data }) {
                     </div>
                   </Link>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
@@ -420,7 +420,7 @@ export default function Home({ data }) {
         </div>
       </section>
     </Layout>
-  )
+  );
 }
 
 export const query = graphql`
@@ -461,4 +461,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

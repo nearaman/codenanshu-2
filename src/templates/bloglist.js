@@ -1,10 +1,10 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import Layout from "../components/Layout"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import Layout from "../components/Layout";
 
 export default function Blog(props) {
-  const allPostsData = props.data.allMarkdownRemark.nodes
+  const allPostsData = props.data.allMarkdownRemark.nodes;
   return (
     <Layout>
       <section>
@@ -14,8 +14,8 @@ export default function Blog(props) {
         <div className="py-12 sm:px-6 lg:py-16 lg:px-8">
           <div className=" mx-auto max-w-7xl">
             <div className="grid max-w-lg gap-14 mx-auto lg:grid-cols-3 lg:max-w-none">
-              {allPostsData.map(post => {
-                const reImage = getImage(post.frontmatter.image)
+              {allPostsData.map((post) => {
+                const reImage = getImage(post.frontmatter.image);
                 return (
                   <div
                     className="flex flex-col overflow-hidden rounded-lg border-gray-700 border-solid border-2 shadow-2xl"
@@ -44,7 +44,7 @@ export default function Blog(props) {
                       </div>
                     </div>
                   </div>
-                )
+                );
               })}
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Blog(props) {
         </div>
       </section>
     </Layout>
-  )
+  );
 }
 
 export const query = graphql`
@@ -94,4 +94,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

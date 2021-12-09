@@ -1,8 +1,8 @@
 ---
 title: "Use Pocket to Save Pages"
 date: 2021-07-14T22:45:55+05:30
-description : "An Award-Winning App From Firefox "
-image : "https://www.mozilla.org/media/img/firefox/pocket/pocket-save.e1c79846a67e.png"
+description: "An Award-Winning App From Firefox "
+image: "https://www.mozilla.org/media/img/firefox/pocket/pocket-save.e1c79846a67e.png"
 category: "notes"
 slug: "use-pocket-to-save-pages"
 ---

@@ -1,41 +1,41 @@
-import React from "react"
-import Layout from "../components/Layout"
-import { center } from "../styles/Contact.module.css"
+import React from "react";
+import Layout from "../components/Layout";
+import { center } from "../styles/Contact.module.css";
 
 export default function Contact() {
-  const [name, setName] = React.useState("")
-  const [secName, setSecName] = React.useState("")
-  const [email, setEmail] = React.useState("")
-  const [message, setMessage] = React.useState("")
+  const [name, setName] = React.useState("");
+  const [secName, setSecName] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [message, setMessage] = React.useState("");
 
   const sendData = () => {
-    console.log("sending data")
+    console.log("sending data");
 
     let params = {
       username: name,
       avatar_url: "https://data.whicdn.com/images/340038863/original.jpg",
       content: `${message} ::: you can contact me at ${email}`,
-    }
+    };
 
-    var request = new XMLHttpRequest()
+    var request = new XMLHttpRequest();
     request.open(
       "POST",
       "https://discord.com/api/webhooks/876283951998726185/w511wwzOH9jNJwEwpJao9n9Ehq7v08UhKPOdJp26ePA4UGb91bbrvHe5EEVVaICmhuf6"
-    )
+    );
 
-    request.setRequestHeader("Content-type", "application/json")
+    request.setRequestHeader("Content-type", "application/json");
 
-    request.send(JSON.stringify(params))
+    request.send(JSON.stringify(params));
 
-    console.log(params)
+    console.log(params);
 
-    alert("message send succesfully")
+    alert("message send succesfully");
 
-    setName("")
-    setSecName("")
-    setEmail("")
-    setMessage("")
-  }
+    setName("");
+    setSecName("");
+    setEmail("");
+    setMessage("");
+  };
 
   return (
     <Layout style={center}>
@@ -55,7 +55,7 @@ export default function Contact() {
               type="text"
               placeholder="Jane"
               value={name}
-              onChange={e => setName(e.target.value)}
+              onChange={(e) => setName(e.target.value)}
             />
             <p className="text-red-500 text-xs italic">
               Please fill out this field.
@@ -74,7 +74,7 @@ export default function Contact() {
               type="text"
               placeholder="Doe"
               value={secName}
-              onChange={e => setSecName(e.target.value)}
+              onChange={(e) => setSecName(e.target.value)}
             />
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Contact() {
               id="email"
               type="email"
               value={email}
-              onChange={e => setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <p className="text-gray-600 text-xs italic">
               Some tips - as long as needed
@@ -111,7 +111,7 @@ export default function Contact() {
               id="message"
               defaultValue={""}
               value={message}
-              onChange={e => setMessage(e.target.value)}
+              onChange={(e) => setMessage(e.target.value)}
             />
             <p className="text-gray-600 text-xs italic">
               Re-size can be disabled by set by resize-none / resize-y /
@@ -133,5 +133,5 @@ export default function Contact() {
         </div>
       </form>
     </Layout>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-const { colors: defaultColors } = require("tailwindcss/defaultTheme")
+const { colors: defaultColors } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -26,4 +26,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

@@ -1,10 +1,10 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/Layout"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import Layout from "../components/Layout";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function Notes(props) {
-  const allPostsData = props.data.allMarkdownRemark.nodes
+  const allPostsData = props.data.allMarkdownRemark.nodes;
 
   return (
     <Layout>
@@ -16,10 +16,13 @@ export default function Notes(props) {
           <div className="px-4 py-12 mx-auto">
             <div className="max-w-4xl mx-auto">
               <div className="space-y-8 lg:divide-y lg:divide-gray-100">
-                {allPostsData.map(post => {
-                  const reImage = getImage(post.frontmatter.image)
+                {allPostsData.map((post) => {
+                  const reImage = getImage(post.frontmatter.image);
                   return (
-                    <div className="pt-8 sm:flex lg:items-end group" id={post.id}>
+                    <div
+                      className="pt-8 sm:flex lg:items-end group"
+                      id={post.id}
+                    >
                       <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
                         <GatsbyImage
                           className="w-full rounded-md lg:h-32 lg:w-32"
@@ -48,7 +51,7 @@ export default function Notes(props) {
                         </p>
                       </div>
                     </div>
-                  )
+                  );
                 })}
               </div>
             </div>
@@ -68,7 +71,7 @@ export default function Notes(props) {
         </div>
       </section>
     </Layout>
-  )
+  );
 }
 
 export const query = graphql`
@@ -99,4 +102,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

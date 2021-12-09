@@ -1,9 +1,9 @@
-import { Menu, Transition } from "@headlessui/react"
-import React, { Fragment } from "react"
-import { Link } from "gatsby"
-import Search from "../shortcodes/search"
+import { Menu, Transition } from "@headlessui/react";
+import React, { Fragment } from "react";
+import { Link } from "gatsby";
+import Search from "../shortcodes/search";
 
-const SearchIndices = [{ name: "docsearch", title: "docsearch" }]
+const SearchIndices = [{ name: "docsearch", title: "docsearch" }];
 
 const Navbar = () => {
   return (
@@ -123,7 +123,7 @@ const Navbar = () => {
         </Menu>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
