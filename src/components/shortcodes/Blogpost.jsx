@@ -15,7 +15,7 @@ export default function Blogpost({ data }) {
     <Layout>
       <Seo title={title} description={description} />
       <article
-        className="py-10 sm:px-24 md:px-36 lg:px-72 xl:px-80 2xl:px-96 lg:flex lg:justify-center items-center lg:flex-col lg:max-w-6xl xl:max-w-7xl 2xl:max-w-screen-2xl"
+        className="py-10 sm:px-24 md:px-36 lg:px-72 xl:px-80 lg:flex justify-center items-center lg:flex-col lg:max-w-6xl xl:max-w-7xl 2xl:max-w-screen-2xl lg:text-lg"
         itemScope
         itemType="http://schema.org/Article"
       >

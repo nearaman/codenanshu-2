@@ -2,6 +2,8 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { green_gradient } from "../styles/Gradient.module.css";
+
 
 export default function Notes(props) {
   const allPostsData = props.data.allMarkdownRemark.nodes;
@@ -10,7 +12,7 @@ export default function Notes(props) {
     <Layout>
       <section>
         <h1 className="text-3xl md:mt-10 font-bold text-center text-textWhite">
-          Notes 🤹🏻
+          <span className={green_gradient}>Notes </span> 🧑🏼‍🚀
         </h1>
         <div>
           <div className="px-4 py-12 mx-auto">

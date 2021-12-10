@@ -1,7 +1,7 @@
 .post {
     margin-top: 30px;
     margin-bottom: 30px;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 .post > h1, .post >h2, .post >h3, .post >h4,.post >h5,.post >h6 {
@@ -83,6 +83,7 @@
 @media only screen and (max-width: 600px) {
     .post > p {
         font-size: 1.03rem;
+        line-height: 29px;
     }
     .post > h4 {
         margin-top: 20px;

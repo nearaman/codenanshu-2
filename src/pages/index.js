@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Seo from "../components/shortcodes/seo";
-import Svghero from "../components/shortcodes/Svghero";
+import Svghero from '../components/shortcodes/Svghero'
 import { blue_gradient, green_gradient } from "../styles/Gradient.module.css";
 import { graphql, Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
@@ -46,7 +46,7 @@ export default function Home({ data }) {
             </div>
           </div>
           <div className={`lg:max-w-lg lg:w-full md:w-1/2 w-5/6 pb-10`}>
-            <Svghero />
+            <Svghero/>
           </div>
         </div>
       </section>
