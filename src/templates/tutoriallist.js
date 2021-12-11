@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Seo from '../components/shortcodes/seo.js'
 import { green_gradient } from "../styles/Gradient.module.css";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
@@ -9,6 +10,7 @@ export default function Tutorial(props) {
 
   return (
     <Layout>
+    <Seo title="Tutorials - codenanshu developer blog"/>
       <section>
         <h1 className="text-center text-3xl md:mt-10 font-bold text-textWhite">
           <span className={green_gradient}>TUTORIALS</span> 🤹🏻
@@ -19,7 +21,7 @@ export default function Tutorial(props) {
               {allPostsData.map((post) => {
                 const reImage = getImage(post.frontmatter.image);
                 return (
-                  <Link to={`/tutorial/${post.frontmatter.slug}`} id={post.id}>
+                  <Link to={`/tutorial/${post.frontmatter.slug}`} key={post.id}>
                     <div className="flex w-full">
                       <div className="relative flex flex-col items-start m-1 bg-secBlack shadow-2xl rounded-xl">
                         <GatsbyImage

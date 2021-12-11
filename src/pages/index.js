@@ -53,8 +53,8 @@ export default function Home({ data }) {
 
       {/* blog section */}
 
-      <section class="body-font py-12">
-        <div class="container px-5 mx-auto">
+      <section className="body-font py-12">
+        <div className="container px-5 mx-auto">
           <div className="flex justify-between items-center my-12 px-2">
             <h2 className="text-textWhite font-medium">
               Latest <span className={green_gradient}>Articles</span>
@@ -63,10 +63,10 @@ export default function Home({ data }) {
               <p className="text-textWhiteBlue">All Posts {">>"}</p>
             </Link>
           </div>
-          <div class="flex flex-wrap -m-4">
-            {BlogpostData.map((post) => {
+          <div className="flex flex-wrap -m-4">
+            {BlogpostData.map((post, index) => {
               return (
-                <div class="p-4 md:w-1/4">
+                <div className="p-4 md:w-1/4" key={index}>
                   <div
                     className={`h-full border-2 border-gray-700 rounded-md bg-bgBlack p-2 flex flex-col justify-evenly`}
                   >
@@ -82,13 +82,13 @@ export default function Home({ data }) {
                     >
                       Learn More
                       <svg
-                        class="w-4 h-4 ml-2"
+                        className="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        stroke-width="2"
+                        strokeWidth="2"
                         fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
@@ -114,11 +114,11 @@ export default function Home({ data }) {
               <p className="text-textWhiteBlue">All Posts {">>"}</p>
             </Link>
           </div>
-          <div class="flex flex-wrap -m-4">
-            {tutorialPostData.map((post) => {
+          <div className="flex flex-wrap -m-4">
+            {tutorialPostData.map((post, index) => {
               const reImage = getImage(post.frontmatter.image);
               return (
-                <div className="overflow-hidden shadow-lg md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-5 md:hover:shadow-2xl rounded-lg h-90 w-80 mb-10 cursor-pointer m-auto">
+                <div className="overflow-hidden shadow-lg md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-5 md:hover:shadow-2xl rounded-lg h-90 w-80 mb-10 cursor-pointer m-auto" key={index}>
                   <Link
                     to={`/tutorial/${post.frontmatter.slug}`}
                     className="w-full block h-full"
@@ -175,9 +175,9 @@ export default function Home({ data }) {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
                       ></path>
                     </svg>{" "}
@@ -207,9 +207,9 @@ export default function Home({ data }) {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
                       ></path>
                     </svg>
@@ -240,9 +240,9 @@ export default function Home({ data }) {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
                       ></path>
                     </svg>

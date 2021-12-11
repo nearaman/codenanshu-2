@@ -109,7 +109,6 @@ export default function Contact() {
             <textarea
               className=" no-resize appearance-none block w-full bg-secBlack text-textWhiteBlue border border-gray-700 rounded py-3 px-4 mb-3 leading-tight  focus:outline-none focus:border-gray-500 h-48 resize-none"
               id="message"
-              defaultValue={""}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />

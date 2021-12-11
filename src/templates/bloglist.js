@@ -2,6 +2,7 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
+import Seo from '../components/shortcodes/seo.js'
 import { green_gradient } from "../styles/Gradient.module.css";
 
 
@@ -9,6 +10,7 @@ export default function Blog(props) {
   const allPostsData = props.data.allMarkdownRemark.nodes;
   return (
     <Layout>
+      <Seo title="Blogs - codenanshu developer blog"/>
       <section>
         <h1 className="text-3xl md:mt-10 font-bold text-center text-textWhite">
           <span className={green_gradient}>BLOG</span> 🔮
@@ -21,7 +23,7 @@ export default function Blog(props) {
                 return (
                   <div
                     className="flex flex-col overflow-hidden rounded-lg border-gray-700 border-solid border-2 shadow-2xl"
-                    id={post.id}
+                    key={post.id}
                   >
                     <div className="flex-shrink-0">
                       <GatsbyImage

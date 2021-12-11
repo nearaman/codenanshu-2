@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import algoliasearch from "algoliasearch/lite";
 import { Dialog } from "@headlessui/react";
 import { Link } from "gatsby";
+import config from '../../../../config.json'
 
 export default function Search() {
   const [isOpen, setIsOpen] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
 
   const searchClient = algoliasearch(
-    "MTODELXQZS",
-    "bd6ef49e53779e0783dfafa5e93763c2"
+    config.ALGOLIA_APP_ID,
+    config.ALGOLIA_SEARCH_KEY
   );
 
   const search_client = searchClient.initIndex("docsearch");
@@ -77,9 +78,9 @@ export default function Search() {
 
           <div>
             <ul className="overflow-y-auto">
-              {searchResults.map((res) => {
+              {searchResults.map((res, index) => {
                 return (
-                  <Link to={res.slug}>
+                  <Link to={res.slug} key={index}>
                     <li className="bg-Black mx-5 my-3 p-1 text-textWhiteBlue rounded">
                       {res.title}
                     </li>

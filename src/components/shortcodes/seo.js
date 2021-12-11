@@ -34,20 +34,20 @@ const Seo = ({ description, lang, meta, title }) => {
       htmlAttributes={{
         lang,
       }}
-      title={title || site.siteMetadata.title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      title={title || defaultTitle}
+      titleTemplate={defaultTitle ? `%s | ${title}` : null}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: description || metaDescription,
         },
         {
           property: `og:title`,
-          content: title,
+          content: title || defaultTitle,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: description || metaDescription,
         },
         {
           property: `og:type`,
@@ -57,17 +57,17 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:card`,
           content: `summary`,
         },
-        //  {
-        //    name: `twitter:creator`,
-        //    content: site.siteMetadata?.social?.twitter || ``,
-        //  },
+         {
+           name: `twitter:creator`,
+           content: site.siteMetadata?.social?.twitter || `aianshume`,
+         },
         {
           name: `twitter:title`,
-          content: title,
+          content: title || defaultTitle,
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: description || metaDescription,
         },
         {
           name: `theme-color`,
@@ -88,7 +88,7 @@ Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
 
 export default Seo;

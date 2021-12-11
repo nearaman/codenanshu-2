@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Seo from '../components/shortcodes/seo.js'
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { green_gradient } from "../styles/Gradient.module.css";
 
@@ -10,6 +11,7 @@ export default function Notes(props) {
 
   return (
     <Layout>
+      <Seo title="Notes - codenanshu developer blog"/>
       <section>
         <h1 className="text-3xl md:mt-10 font-bold text-center text-textWhite">
           <span className={green_gradient}>Notes </span> 🧑🏼‍🚀
@@ -23,7 +25,7 @@ export default function Notes(props) {
                   return (
                     <div
                       className="pt-8 sm:flex lg:items-end group"
-                      id={post.id}
+                      key={post.id}
                     >
                       <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
                         <GatsbyImage

@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
       <div className="flex">
         <ul className="md:flex md:space-x-7 hidden md:visible md:items-center">
-          <li>
+          <li className="md:mx-4">
             <Link to="/about">About</Link>
           </li>
         </ul>
