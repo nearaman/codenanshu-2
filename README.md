@@ -8,6 +8,8 @@
   CodeNanshu content for developers
 </h1>
 
+[![DeepScan grade](https://deepscan.io/api/teams/16226/projects/19460/branches/505832/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16226&pid=19460&bid=505832)
+
 Kick off your programming skills with codeNanshu. This plateform help you learn things that are really helpful for your requirements.
 
 _Want To Read Blog? You may want to check out our blog post [official on codeNanshu](https://codenanshu.in/blog//)._
