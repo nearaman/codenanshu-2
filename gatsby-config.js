@@ -8,7 +8,6 @@ const config = require('./config.json')
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/codenanshu",
   siteMetadata: {
     title: `Codenanshu developer blog`,
     author: {
@@ -23,6 +22,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-postcss",
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
