@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-const config = require('./config.json')
+const config = require("./config.json");
 
 module.exports = {
   /* Your site config here */

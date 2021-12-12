@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Seo from '../components/shortcodes/seo.js'
+import Seo from "../components/shortcodes/seo.js";
 import { green_gradient } from "../styles/Gradient.module.css";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
@@ -10,7 +10,7 @@ export default function Tutorial(props) {
 
   return (
     <Layout>
-    <Seo title="Tutorials - codenanshu developer blog"/>
+      <Seo title="Tutorials - codenanshu developer blog" />
       <section>
         <h1 className="text-center text-3xl md:mt-10 font-bold text-textWhite">
           <span className={green_gradient}>TUTORIALS</span> 🤹🏻

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import algoliasearch from "algoliasearch/lite";
 import { Dialog } from "@headlessui/react";
 import { Link } from "gatsby";
-import config from '../../../../config.json'
+import config from "../../../../config.json";
 
 export default function Search() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,17 +1,16 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Seo from '../components/shortcodes/seo.js'
+import Seo from "../components/shortcodes/seo.js";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { green_gradient } from "../styles/Gradient.module.css";
-
 
 export default function Notes(props) {
   const allPostsData = props.data.allMarkdownRemark.nodes;
 
   return (
     <Layout>
-      <Seo title="Notes - codenanshu developer blog"/>
+      <Seo title="Notes - codenanshu developer blog" />
       <section>
         <h1 className="text-3xl md:mt-10 font-bold text-center text-textWhite">
           <span className={green_gradient}>Notes </span> 🧑🏼‍🚀
