@@ -1,6 +1,6 @@
-require("dotenv").config();
+const config = require("../../../config.json");
 
-const indexName = process.env.ALGOLIA_INDEX_NAME;
+const indexName = config.ALGOLIA_INDEX_NAME;
 
 const pageQuery = `
 query search {

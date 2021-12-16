@@ -13,7 +13,7 @@ export default function Search() {
     config.ALGOLIA_SEARCH_KEY
   );
 
-  const search_client = searchClient.initIndex("docsearch");
+  const search_client = searchClient.initIndex(config.ALGOLIA_INDEX_NAME);
   const requestOptions = {};
 
   function closeModal() {
