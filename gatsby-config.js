@@ -77,5 +77,11 @@ module.exports = {
         queries: require("./src/components/utils/algolia-queries"),
       },
     },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: config.MAILCHIMP_ENDPOINT,
+      },
+    },
   ],
 };

@@ -29,8 +29,6 @@ const Seo = ({ description, lang, meta, title }) => {
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
 
-  console.log(defaultTitle)
-
   return (
     <Helmet
       htmlAttributes={{
