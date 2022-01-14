@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.codenanshu.in">
+  <a href="https://www.codenanshu.netlify.app">
     <img alt="CodeNanshu" src="https://i.ibb.co/L1rZWBQ/filename.png" width="60" />
   </a>
 </p>
@@ -12,7 +12,7 @@
 
 Kick off your programming skills with codeNanshu. This plateform help you learn things that are really helpful for your requirements.
 
-_Want To Read Blog? You may want to check out our blog post [official on codeNanshu](https://codenanshu.in/blog//)._
+_Want To Read Blog? You may want to check out our blog post [official on codeNanshu](https://codenanshu.netlify.app/blog//)._
 
 ## 🚀 Quick start
 

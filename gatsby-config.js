@@ -15,7 +15,7 @@ module.exports = {
       summary: `trying to build new web for everyone.`,
     },
     description: `codenanshu is a developer plateform that helps developers to learn fast`,
-    siteUrl: `https://codenanshu.in/`,
+    siteUrl: `https://codenanshu.netlify.app/`,
     social: {
       twitter: `aianshume`,
     },

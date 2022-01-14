@@ -29,4 +29,4 @@ The fun fact is this it's too easy to migrate code from Next To Gatsby just copy
 
 so i just use Gatsby for my project and now I release a [new version of codenanshu](https://github.com/aianshume/codenanshu).
 
-thanks for reading meet you in my website [codenanshu](https://codenanshu.in)
+thanks for reading meet you in my website [codenanshu](https://codenanshu.netlify.app)
