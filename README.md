@@ -109,7 +109,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
     hygen
     tailwindcss
     algolia
-    firebase
+    netlify
     headless ui
 
 This project is build with ❤️ and ✨
