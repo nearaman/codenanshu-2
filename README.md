@@ -12,7 +12,7 @@
 
 Kick off your programming skills with codeNanshu. This plateform help you learn things that are really helpful for your requirements.
 
-_Want To Read Blog? You may want to check out our blog post [official on codeNanshu](https://codenanshu.netlify.app/blog//)._
+_Want To Read Blog? You may want to check out our blog post [official on codeNanshu](https://codenanshu.in/blog/)._
 
 ## 🚀 Quick start
 
