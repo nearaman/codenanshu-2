@@ -10,7 +10,7 @@ import SubscriptionForm from '../components/shortcodes/SubscriptionForm'
 
 export default function Home({ data }) {
   const BlogpostData = data.blog.nodes;
-  const tutorialPostData = data.tutorial.nodes;
+  const tutorialsPostData = data.tutorials.nodes;
 
   return (
     <Layout>
@@ -103,20 +103,20 @@ export default function Home({ data }) {
         </div>
       </section>
 
-      {/* Tutorial section */}
+      {/* tutorials section */}
 
       <section className="body-font py-12">
         <div className="container px-5 mx-auto">
           <div className="flex justify-between items-center my-12 px-2">
             <h2 className="text-textWhite font-medium">
-              Awesome <span className={green_gradient}>Tutorials</span>
+              Awesome <span className={green_gradient}>tutorialss</span>
             </h2>
-            <Link to="/tutorial/">
+            <Link to="/tutorials/">
               <p className="text-textWhiteBlue">All Posts {">>"}</p>
             </Link>
           </div>
           <div className="flex flex-wrap -m-4">
-            {tutorialPostData.map((post, index) => {
+            {tutorialsPostData.map((post, index) => {
               const reImage = getImage(post.frontmatter.image);
               return (
                 <div
@@ -124,7 +124,7 @@ export default function Home({ data }) {
                   key={index}
                 >
                   <Link
-                    to={`/tutorial/${post.frontmatter.slug}`}
+                    to={`/tutorials/${post.frontmatter.slug}`}
                     className="w-full block h-full"
                   >
                     <GatsbyImage
@@ -444,8 +444,8 @@ export const query = graphql`
         }
       }
     }
-    tutorial: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/tutorial/" } }
+    tutorials: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/tutorials/" } }
       limit: 3
       sort: { fields: frontmatter___date, order: DESC }
     ) {

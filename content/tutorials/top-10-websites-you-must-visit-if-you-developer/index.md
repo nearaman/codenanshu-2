@@ -4,7 +4,7 @@ date: "2021-07-12"
 description: "Have you got bored seeing the same websites again and again in search of some cool websites on the internet? Then this BLOG is definitely for you. 📝"
 image: ./hero.webp
 slug: "top-10-websites-you-must-visit-if-you-developer"
-category: "tutorial"
+category: "tutorials"
 ---
 
 `Hello World 👋`

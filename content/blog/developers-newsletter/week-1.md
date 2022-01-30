@@ -155,7 +155,7 @@ _The secret of the world is that it is a very malleable place, we must be sure t
 
 ![wow reaction](https://cdn-images-1.medium.com/max/1600/0*Yflz5xR0O_rT2tZv.jpg)
 
-- Learn SQL quick with this [interactive tutorial](https://sqlbolt.com/)
+- Learn SQL quick with this [interactive tutorials](https://sqlbolt.com/)
 - Cool new VS Code theme: [Serendipity](https://wvsc.dev/)
 
 See you next week!

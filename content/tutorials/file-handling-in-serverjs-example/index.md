@@ -4,7 +4,7 @@ date: "2021-09-15"
 description: "File handling in serverjs example, serverjs is simplest library for node like express but really easy to use."
 image: ./serverjs.webp
 slug: "file-handling-in-serverjs-example"
-category: "tutorial"
+category: "tutorials"
 ---
 
 Serverjs is one of the easiest and simplest frameworks for Nodejs like express. it is one of the best frameworks that comes with many facilities preinstalled like Socket.io, Batteries on, modern es7, and more. in today's article, we are going to take a look at File handling in Serverjs with some examples.
@@ -60,4 +60,4 @@ server([
 ]);
 ```
 
-these are some examples of file handling in serverjs. all of these examples are taken from the [official documentation](https://serverjs.io/documentation/) of the library and don't forget to check out my other amazing [tutorials](/tutorial/)
+these are some examples of file handling in serverjs. all of these examples are taken from the [official documentation](https://serverjs.io/documentation/) of the library and don't forget to check out my other amazing [tutorialss](/tutorials/)

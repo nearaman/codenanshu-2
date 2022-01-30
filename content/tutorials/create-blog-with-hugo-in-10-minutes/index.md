@@ -4,7 +4,7 @@ date: "2021-08-19"
 description: "create a blog with hugo and deploy to github pages for free no need to download wordpress"
 image: ./hugo.webp
 slug: "create-blog-with-hugo-in-10-minutes"
-category: "tutorial"
+category: "tutorials"
 ---
 
 hugo 👋🏼 is one of the most powerful open source static site generator with its amazing speed and flexibility.

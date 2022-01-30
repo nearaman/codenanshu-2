@@ -119,7 +119,7 @@ Here's how a sample Mochawesome report looks like -
 [![Alt Text](https://res.cloudinary.com/practicaldev/image/fetch/s--2upknhTW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/7jb6vm9fbbljuzkd6q4w.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--2upknhTW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/7jb6vm9fbbljuzkd6q4w.png)
 
 So there you go using SuperTest, Mocha, Chai, and Mochawesome we can create an API test automation framework in JavaScript.  
-Note: There are many other alternatives that can be used for these libraries or frameworks, however, for this [tutorial series](https://www.youtube.com/watch?v=ZSVw3TyZur4&list=PL6AdzyjjD5HDR2kNRU2dA1C8ydXRAaaBV&ab_channel=AutomationBro) this is what we will be using.
+Note: There are many other alternatives that can be used for these libraries or frameworks, however, for this [tutorials series](https://www.youtube.com/watch?v=ZSVw3TyZur4&list=PL6AdzyjjD5HDR2kNRU2dA1C8ydXRAaaBV&ab_channel=AutomationBro) this is what we will be using.
 
 ---
 

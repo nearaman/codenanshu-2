@@ -11,9 +11,9 @@ Always bet on JavaScript because it's the only language for web development. jav
 
 ## How To Learn JavaScript
 
-The syntax of this language is too hard. its really user friendly and easy to learn language with the syntax of python and C++. there are different ways to learn JavaScript like you can check out some tutorials on YouTube and also you can learn this language by reading some article like on w3schools and official Mozilla documentations on this language.
+The syntax of this language is too hard. its really user friendly and easy to learn language with the syntax of python and C++. there are different ways to learn JavaScript like you can check out some tutorialss on YouTube and also you can learn this language by reading some article like on w3schools and official Mozilla documentations on this language.
 
-but what if you are like me who don't like to watch tutorials on internet of reading some content on the internet and you like **books** as your source of learning so don't worry about that i learn javaScript by reading so many books and this article i am going to share some of my favorite books that help me to learn JavaScript and write code for Reactjs and nodejs.
+but what if you are like me who don't like to watch tutorialss on internet of reading some content on the internet and you like **books** as your source of learning so don't worry about that i learn javaScript by reading so many books and this article i am going to share some of my favorite books that help me to learn JavaScript and write code for Reactjs and nodejs.
 
 ## Problems With JavaScript
 

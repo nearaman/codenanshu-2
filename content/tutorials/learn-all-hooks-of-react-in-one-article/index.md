@@ -1,10 +1,10 @@
 ---
-title: "Learn All Hooks in React In One Tutorial"
-description: "all 7 hooks of react are covered in one tutorial like useState, useEffect, useMemo and much more"
+title: "Learn All Hooks in React In One tutorials"
+description: "all 7 hooks of react are covered in one tutorials like useState, useEffect, useMemo and much more"
 date: "Sun Dec 12 2021"
 image: "./hero.png"
 slug: "learn-all-hooks-of-react-in-one-article"
-category: "tutorial"
+category: "tutorials"
 ---
 
 Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Today we'll learn about the widely used hooks in React. First, let me tell you the need for hooks. As we all know React has functional and class components. Previously, the functional components were only used to render the data but didn't consist of the business logic or any side effect in itself.

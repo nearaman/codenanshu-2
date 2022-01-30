@@ -17,7 +17,7 @@ so we can use wp-json route on a WordPress website and then we can display in ou
 
 ## WordPress website route
 
-you can take your own website but for this tutorial i take a website that created by techcrunch (warning : this webisite is not my autority so please be use this in your website replace the URL)
+you can take your own website but for this tutorials i take a website that created by techcrunch (warning : this webisite is not my autority so please be use this in your website replace the URL)
 
 here we have the url of the website
 

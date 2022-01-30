@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to="/blog/">Blog</Link>
           </li>
           <li className="hover:text-yellow-400">
-            <Link to="/tutorial/">Tutorial</Link>
+            <Link to="/tutorials/">tutorials</Link>
           </li>
           <li className="hover:text-green-400">
             <Link to="/notes/">Notes</Link>
@@ -84,11 +84,11 @@ const Navbar = () => {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <Link to="/tutorial">
+                    <Link to="/tutorials">
                       <button
                         className={`${"text-textWhiteBlue"} group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                       >
-                        Tutorial
+                        tutorials
                       </button>
                     </Link>
                   )}

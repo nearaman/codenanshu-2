@@ -4,7 +4,7 @@ date: "2021-07-10"
 description: "Array methods that come handy when building your next project these methonds are very helpfull if you work with array and want to solve some good problems"
 image: ./learn_javascript.webp
 slug: "most-useful-javascript-array-methods"
-category: "tutorial"
+category: "tutorials"
 ---
 
 We underestimate what the understanding of basic array methods can do. It saves us a lot of time when building projects. At least, I feel that way, because most of the features that you build in any project boil down to manipulating the array of values.

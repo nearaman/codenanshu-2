@@ -1,5 +1,5 @@
 ---
-to: content/tutorial/<%= url%>/index.md
+to: content/tutorials/<%= url%>/index.md
 ---
 ---
 title: "<%= title%>"
@@ -7,7 +7,7 @@ description: "<%= description%>"
 date: "<%= h.date() %>"
 image: "./some-image.webp"
 slug: "<%= url%>"
-category: "tutorial"
+category: "tutorials"
 ---
 
 here you content

@@ -11,7 +11,7 @@ Tor Browser routes your web traffic through the Tor network, making it private a
 
 Using Tor Browser comes with few drawbacks. Browsing the web over Tor is slower than a regular Internet connection, and some major web sites block Tor users. Also, in some countries, Tor is illegal or blocked by the government-enforced firewall.
 
-In this tutorial, we’ll explain how to install Tor web browser on Ubuntu 18.04. The same instructions apply for Ubuntu 16.04 and any other Ubuntu-based distribution, including Kubuntu, Linux Mint and Elementary OS.
+In this tutorials, we’ll explain how to install Tor web browser on Ubuntu 18.04. The same instructions apply for Ubuntu 16.04 and any other Ubuntu-based distribution, including Kubuntu, Linux Mint and Elementary OS.
 Installing Tor Browser Launcher
 
 The easiest way to install the Tor Browser on Ubuntu Linux is by using the Tor Browser Launcher script. This script downloads and automatically installs the most recent version of Tor Browser and adds application launcher icon. The “torbrowser-launcher” package is included in the default Ubuntu repositories but it is pretty outdated. We’ll install the package from the project maintainer repository.

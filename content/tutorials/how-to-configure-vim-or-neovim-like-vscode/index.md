@@ -4,7 +4,7 @@ date: "2021-07-25"
 description: "setup vim or neovim as vs code all all extection vim is powerfull text editor with lots of functionality"
 image: ./setup-vim-as-vscode.webp
 slug: "how-to-configure-vim-or-neovim-like-vscode"
-category: "tutorial"
+category: "tutorials"
 ---
 
 ## What is Vim or neovim
@@ -56,7 +56,7 @@ its time to configure our vim or neovim as you know i do this thing in xubuntu s
 
 so to do all the configuration you need to have a plugin manager for vim or neovim which can manage your plugs and these plugs provide you all the configuration that you want.
 
-in this tutorial i am going to use [Vim Plug](https://github.com/junegunn/vim-plug) whech help you to just install the plugins that help us to write some configuration.
+in this tutorials i am going to use [Vim Plug](https://github.com/junegunn/vim-plug) whech help you to just install the plugins that help us to write some configuration.
 
 as per your OS you need to find how to install the vim plug in your os, just visit on [Vim Plug](https://github.com/junegunn/vim-plug) and find your way.
 
