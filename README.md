@@ -56,6 +56,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── node_modules
     ├── content
     ├── src
+    ├── src
+    ├── firebase.json
     ├── .gitignore
     ├── .hygen.js
     ├── .prettierrc
@@ -109,7 +111,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
     hygen
     tailwindcss
     algolia
-    netlify
+    firebase
     headless ui
 
 This project is build with ❤️ and ✨
