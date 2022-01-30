@@ -17,8 +17,8 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  const tutorialPosts = data.allMarkdownRemark.nodes.filter(
-    (post) => post.frontmatter.category == "tutorial"
+  const tutorialsPosts = data.allMarkdownRemark.nodes.filter(
+    (post) => post.frontmatter.category == "tutorials"
   );
   const blogPost = data.allMarkdownRemark.nodes.filter(
     (post) => post.frontmatter.category == "blog"
@@ -37,10 +37,10 @@ exports.createPages = async ({ graphql, actions }) => {
 
   pagination.paginate({
     createPage, // The Gatsby `createPage` function
-    items: tutorialPosts, // An array of objects
+    items: tutorialsPosts, // An array of objects
     itemsPerPage: 9, // How many items you want per page
-    pathPrefix: "/tutorial", // Creates pages like `/blog`, `/blog/2`, etc
-    component: path.resolve("./src/templates/tutoriallist.js"),
+    pathPrefix: "/tutorials", // Creates pages like `/blog`, `/blog/2`, etc
+    component: path.resolve("./src/templates/tutorialslist.js"),
   });
 
   pagination.paginate({
