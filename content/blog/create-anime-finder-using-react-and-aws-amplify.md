@@ -1,10 +1,11 @@
 ---
-title: "Anime Hero - Anime finder using AWS Amplify - AWS Amplify Hackathon"
-date: "2021-07-08"
-description: "best app for anime lovers"
+title: Anime Hero - Anime finder using AWS Amplify - AWS Amplify Hackathon
+description: best app for anime lovers
+date: 2021-07-08
 image: ./hero.jpeg
-slug: "create-anime-finder-using-react-and-aws-amplify"
-category: "blog"
+slug: create-anime-finder-using-react-and-aws-amplify
+category: blog
+thumbnail: ../assets/create-anime-finder-using-react-and-aws-amplify.jpeg
 ---
 
 This is really amazing project for me i don't believe that i create this project in just 3 days actually i join hashnode in 24 February and i got notification about AWS Amplify Hackathon on 25 February i do not know any framework i have only knowledge of HTML, CSS and JavaScript so when i read the term and conditions related to hackathon then i going to learn REACT JS.
