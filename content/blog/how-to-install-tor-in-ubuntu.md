@@ -1,10 +1,11 @@
 ---
-title: "How to Install Tor Browser on Ubuntu 18.04 Agreeable trick"
-date: "2021-07-09"
-description: "How to Install Tor Browser on Ubuntu 18.04"
+title: How to Install Tor Browser on Ubuntu 18.04 Agreeable trick
+description: How to Install Tor Browser on Ubuntu 18.04
+date: 2021-07-09
 image: ./hero.jpeg
-slug: "how-to-install-tor-in-ubuntu"
-category: "blog"
+slug: how-to-install-tor-in-ubuntu
+category: blog
+thumbnail: ../assets/how-to-install-tor-in-ubuntu.jpeg
 ---
 
 Tor Browser routes your web traffic through the Tor network, making it private and anonymous. When you use the Tor Browser, the connection to the website you are viewing is encrypted and protected from network surveillance and traffic analysis.
