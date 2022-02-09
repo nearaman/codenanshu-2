@@ -10,7 +10,7 @@
 
 # production
 **/build
-**/public
+/public
 config.json
 **/.cache
 
