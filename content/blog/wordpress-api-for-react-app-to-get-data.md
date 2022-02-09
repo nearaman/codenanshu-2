@@ -1,10 +1,11 @@
 ---
-title: "WordPress API for React App to Get Post"
-date: "2021-07-09"
-description: "WordPress API for React Native App to Fetch Data in App"
+title: WordPress API for React App to Get Post
+description: WordPress API for React Native App to Fetch Data in App
+date: 2021-07-09
 image: ./hero.jpeg
-slug: "wordpress-api-for-react-app-to-get-data"
-category: "blog"
+slug: wordpress-api-for-react-app-to-get-data
+category: blog
+thumbnail: ../assets/wordpress-api-for-react-app-to-get-data.jpeg
 ---
 
 WordPress is one of the best CMS in the world but you how we can fatch WordPress API for React App to get posts to in this article i am going to provide some details for WordPress REST API for React and React Native Apps so lets take a look.
