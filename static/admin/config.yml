@@ -9,7 +9,7 @@ public_folder: content
 collections:
   - name: blog
     label: Blog
-    folder: content/blog/*
+    folder: content/blog/**
     create: true
     fields:
       - { name: slug, label: slug }
