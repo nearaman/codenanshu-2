@@ -1,10 +1,12 @@
 ---
-title: "How to Configure Vim Or Neovim Like vs Code"
-date: "2021-07-25"
-description: "setup vim or neovim as vs code all all extection vim is powerfull text editor with lots of functionality"
+title: How to Configure Vim Or Neovim Like vs Code
+description: setup vim or neovim as vs code all all extection vim is powerfull
+  text editor with lots of functionality
+date: 2021-07-25
 image: ./setup-vim-as-vscode.webp
-slug: "how-to-configure-vim-or-neovim-like-vscode"
-category: "tutorials"
+slug: how-to-configure-vim-or-neovim-like-vscode
+category: tutorials
+thumbnail: ../assets/setup-vim-as-vscode.webp
 ---
 
 ## What is Vim or neovim
