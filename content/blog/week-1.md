@@ -1,10 +1,11 @@
 ---
-title: "Developer Newslatter For Week First Of August"
-date: "2021-08-12"
-description: "august week 1, get all news related to this week and get you knowladge a boost"
+title: Developer Newslatter For Week First Of August
+description: august week 1, get all news related to this week and get you knowladge a boost
+date: 2021-08-12
 image: ./august-week-1.webp
-slug: "developer-newslatter-for-week-1-august-2021"
-category: "blog"
+slug: developer-newslatter-for-week-1-august-2021
+category: blog
+thumbnail: ../assets/august-week-1.webp
 ---
 
 this is my first article related to that so i just copy and paste this article from [zero to mastery](https://zerotomastery.io/blog/web-developer-weekly-july-2021)
