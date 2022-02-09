@@ -1,10 +1,11 @@
 ---
-title: "Why Programmers Love Linux"
-date: "2021-07-09"
-description: "why programmers use and prefer Linux for coding"
+title: Why Programmers Love Linux
+description: why programmers use and prefer Linux for coding
+date: 2021-07-09
 image: ./hero.jpeg
-slug: "why-programmers-love-linux"
-category: "blog"
+slug: why-programmers-love-linux
+category: blog
+thumbnail: ../assets/why-programmers-love-linux.jpeg
 ---
 
 Why Programmers Love Linux ? Linux was developed and publicly released by Linus Torvalds in 1991 September. Linux is a free and open-source operating system, unlike either macOS or Windows OS . Linux offers multiple desktop and server distro. Typically the Linux OS is employed for server and cloud software. Some popular Linux distros are Ubuntu, RedHat Enterprise Linux and Debian . Because Linux is free and open-source, it allows end-users to freely alter, utilize, distribute, and publish software code. Open-source licenses such as GNU General Public License and The MIT License permits developers the freedom to modify source code according to their needs.
