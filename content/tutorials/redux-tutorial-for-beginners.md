@@ -1,10 +1,12 @@
 ---
-title: "Redux tutorials For Beginners"
-description: "Learn key takeaway skills of Redux and upgrade your react skills with the help of Redux Toolkit"
-date: "Sat Dec 18 2021"
-image: "./hero.png"
-slug: "redux-tutorials-for-beginners"
-category: "tutorials"
+title: Redux tutorials For Beginners
+description: Learn key takeaway skills of Redux and upgrade your react skills
+  with the help of Redux Toolkit
+date: Sat Dec 18 2021
+image: ./hero.png
+slug: redux-tutorials-for-beginners
+category: tutorials
+thumbnail: ../assets/redux-tutorial-for-beginners.png
 ---
 
 React is one of the most loved JavaScript library to create interactive UI. it grows much faster then the other one like angular or vue its all due the the speed and the community they have. State is one the main concept of any UI framework or library. React provide us a **context API** to handle state on the top level but this is not a good or effective way to do that. so in this tutorials we are going to take a look a Redux tutorials for beginners.
