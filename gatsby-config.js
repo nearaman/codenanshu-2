@@ -24,7 +24,12 @@ module.exports = {
     "gatsby-plugin-postcss",
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        modulePath: `${__dirname}/src/components/utils/cms.js`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
