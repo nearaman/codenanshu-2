@@ -1,10 +1,11 @@
 ---
-title: "What Are the Best Javascript Libraries for REST API Automation Testing"
-date: "2021-08-04"
+title: What Are the Best Javascript Libraries for REST API Automation Testing
 description: "JavaScript API Automation Testing - which libraries/frameworks to use? "
+date: 2021-08-04
 image: ./hero.png
-slug: "what-are-the-best-js-library-for-rest-api-testing"
-category: "blog"
+slug: what-are-the-best-js-library-for-rest-api-testing
+category: blog
+thumbnail: ../assets/wordpress-api-for-react-app-to-get-data.jpeg
 ---
 
 To do API automation testing with JavaScript, we'll first need to know which libraries or frameworks we can use that'll help build our test framework.
