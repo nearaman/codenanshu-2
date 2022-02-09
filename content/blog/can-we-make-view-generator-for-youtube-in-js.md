@@ -1,10 +1,11 @@
 ---
-title: "Can We Make View Generator for Youtube in Javascript"
-date: "2021-08-04"
-description: "how to get views by creating Javascript program to reload the webpage"
+title: Can We Make View Generator for Youtube in Javascript
+description: how to get views by creating Javascript program to reload the webpage
+date: 2021-08-04
 image: ./Can We Make View Generator for Youtube in Javascript.webp
-slug: "can-we-make-view-generator-for-youtube-in-js"
-category: "blog"
+slug: can-we-make-view-generator-for-youtube-in-js
+category: blog
+thumbnail: ../assets/Can We Make View Generator for Youtube in Javascript.webp
 ---
 
 is it's posible ? Yes, its posilbe to create a javascript program to get view on youtube. its all posible by adding our javascript to the youtube video page so lets do this.
