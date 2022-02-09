@@ -1,10 +1,13 @@
 ---
-title: "Top 10 Websites You Must Visit if You Are a Developer"
-date: "2021-07-12"
-description: "Have you got bored seeing the same websites again and again in search of some cool websites on the internet? Then this BLOG is definitely for you. 📝"
+title: Top 10 Websites You Must Visit if You Are a Developer
+description: Have you got bored seeing the same websites again and again in
+  search of some cool websites on the internet? Then this BLOG is definitely for
+  you. 📝
+date: 2021-07-12
 image: ./hero.webp
-slug: "top-10-websites-you-must-visit-if-you-developer"
-category: "tutorials"
+slug: top-10-websites-you-must-visit-if-you-developer
+category: tutorials
+thumbnail: ../assets/top-10-websites-you-must-visit-if-you-developer.webp
 ---
 
 `Hello World 👋`
