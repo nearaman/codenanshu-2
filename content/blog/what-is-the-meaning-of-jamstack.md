@@ -1,10 +1,12 @@
 ---
 title: What is The Meaning of Jamstack
+description: meaning of jamstack is stand for JavaScript, APIs and markups.
+  simple means that we can create website without hosting platforms`
 date: 2021-09-08
-description: meaning of jamstack is stand for JavaScript, APIs and markups. simple means that we can create website without hosting platforms`
 image: ./jamstack.webp
-slug: "what-is-the-meaning-of-jamstack"
-category: "blog"
+slug: what-is-the-meaning-of-jamstack
+category: blog
+thumbnail: ../assets/jamstack.webp
 ---
 
 meaning of jamstack is stand for JavaScript, APIs and markups first coined by Mathias Biilmann, CEO of Netlify in 2015. In Jamstack websites, the application logic typically resides on the client side, without being tightly coupled to the back end server.
