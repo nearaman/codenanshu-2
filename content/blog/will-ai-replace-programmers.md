@@ -1,10 +1,11 @@
 ---
-title: "Will Ai Replace Programmers ?"
-date: "2021-07-31"
-description: "With AI Writing Code, Will AI Replace Programmers?"
-category: "blog"
+title: Will Ai Replace Programmers ?
+description: With AI Writing Code, Will AI Replace Programmers?
+date: 2021-07-31
+category: blog
 image: ./will-ai-replace-programmers.jpg
-slug: "will-ai-replace-programmers"
+slug: will-ai-replace-programmers
+thumbnail: ../assets/will-ai-replace-programmers.jpg
 ---
 
 The question seems somewhat ironic if you think about it. Are the creations—intelligent systems—set to replace or displace their creators—programmers—in the future? It sounds like the plot of a sci-fi movie, doesn’t it? The more important question, though, is: Can it be true?
