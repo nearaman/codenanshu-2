@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: aianshume/codenanshu
+  branch: main 
+
+media_folder: content/assets
+public_folder: content
+
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog/best-not-taking-app-for-programmers
+    create: true
+    fields:
+      - { name: slug, label: slug }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image }
+      - { name: body, label: Body, widget: markdown }
+  - name: notes
+    label: Notes
+    folder: content/notes
+    create: true
+    fields:
+      - { name: slug, label: slug }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image }
+      - { name: body, label: Body, widget: markdown }
+  - name: tutorials
+    label: Tutorials
+    folder: content/tutorials
+    create: true
+    fields:
+      - { name: slug, label: slug }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image }
+      - { name: body, label: Body, widget: markdown }
