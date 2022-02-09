@@ -1,10 +1,11 @@
 ---
-title: "Synchronous vs asynchronous programming and their use cases"
-date: "2021-07-09"
-description: "Synchronous and asynchronous"
+title: Synchronous vs asynchronous programming and their use cases
+description: Synchronous and asynchronous
+date: 2021-07-09
 image: ./hero.jpeg
-slug: "synchronous-vs-asynchronous-and-their-use-cases"
-category: "blog"
+slug: synchronous-vs-asynchronous-and-their-use-cases
+category: blog
+thumbnail: ../assets/synchronous-vs-asynchronous-and-their-use-cases.jpeg
 ---
 
 ## Synchronous vs asynchronous programming and their use cases
