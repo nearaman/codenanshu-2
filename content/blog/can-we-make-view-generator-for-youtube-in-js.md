@@ -25,7 +25,7 @@ just follow me on this article i am writing everything in step by step process
 
 first of all you need to open your youtube and then open you youtube video page by simpling click on that
 
-![youtube page link](./youtube-video-page.webp)
+![youtube page link](../assets/youtube-video-page.webp)
 
 then simple ctrl + s to save the complete webpage, simple save it to the desktop we do everything on this file
 this file is saved in the HTML formet we write our javaScript code inside the file.
@@ -36,7 +36,7 @@ the we need to open the HTML file with our code editor i am going to use sublime
 
 just right click on the file and choose open with and choose code editior
 
-![youtube html code edit](./youtube-html-code-edit.webp)
+![youtube html code edit](../assets/youtube-html-code-edit.webp)
 
 at the bottom of the code before the body tag is closing you need to paste the following code
 
@@ -55,7 +55,7 @@ at the bottom of the code before the body tag is closing you need to paste the f
 
 after pasting the code you can see the code look like this bellow
 
-![youtube add javascript](./youtube-add-javascript.webp)
+![youtube add javascript](../assets/youtube-add-javascript.webp)
 
 just save the file and then open it with your browser you see something amazing its work like whenever you open the file the webpage is reload in every 10 sec
 
