@@ -5,6 +5,6 @@ title: this is my first post
 description: here we go agamin
 image: ./first.webp
 ---
-![](../content/assets/273414794_311295781034881_91250611366401383_n.jpg)
+![](../assets/273414794_311295781034881_91250611366401383_n.jpg)
 
 here we go go go
