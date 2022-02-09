@@ -1,10 +1,12 @@
 ---
-title: "File Handling in Serverjs Example"
-date: "2021-09-15"
-description: "File handling in serverjs example, serverjs is simplest library for node like express but really easy to use."
+title: File Handling in Serverjs Example
+description: File handling in serverjs example, serverjs is simplest library for
+  node like express but really easy to use.
+date: 2021-09-15
 image: ./serverjs.webp
-slug: "file-handling-in-serverjs-example"
-category: "tutorials"
+slug: file-handling-in-serverjs-example
+category: tutorials
+thumbnail: ../assets/file-handling-in-serverjs-example.webp
 ---
 
 Serverjs is one of the easiest and simplest frameworks for Nodejs like express. it is one of the best frameworks that comes with many facilities preinstalled like Socket.io, Batteries on, modern es7, and more. in today's article, we are going to take a look at File handling in Serverjs with some examples.
