@@ -7,7 +7,6 @@ slug: codenanshu-version-2.0-relesed-today
 category: notes
 thumbnail: ../assets/codenanshu-version-2.0-relesed-today.webp
 ---
-
 hi everyone,
 
 Today I have a good news for myself now finally I completed my project codeanshu after 1 month of code but this time the site get so many big changes that are new reflect on website. let me talk out why i created this website ?
@@ -20,7 +19,7 @@ so i was searching for a good static site generator and latter i found out HUGO 
 
 so after 1 month of code i write a good website for me in Hugo and host it on firebase this website get really good traffic and my blog is going really too fast on google ranking due to speed and accessibility.
 
-![Screenshot (43).png](./hero.png)
+![Screenshot (43).png](../assets/revelotution.jpeg)
 
 but the problem with this site that whenever i want to add a functionality the hole code is written by me from basic JavaScript to advance all done by me i want interactive way to done that and now I have React skills as well i want to create this hole website in react.
 
