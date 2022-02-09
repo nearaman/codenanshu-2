@@ -3,10 +3,9 @@ title: August Week 3 Developer Newsletter 2021
 description: latest updates of JavaScript, Python and the development of
   software, web and mobile
 date: 2021-08-19
-image: ./august-week-3.webp
 slug: developer-newslatter-for-week-3-august-2021
 category: blog
-thumbnail: ../assets/august-week-3.webp
+image: ../assets/august-week-3.webp
 ---
 
 Whatsapp everybody, welcome to the third august week newsletter in today's letter has something amazing. My name is **Ai Anshu** and I am your host in this article.

@@ -3,10 +3,9 @@ title: What is Web 3.0 or web3
 description: what is web 3.0 and how this tech going to replace the web2.0. how
   a blockchain provide more secure web
 date: Wed Dec 15 2021
-image: ./hero.jpg
 slug: what-is-web-3.0
 category: blog
-thumbnail: ../assets/what-is-we-3.0.jpg
+image: ../assets/what-is-we-3.0.jpg
 ---
 
 Internet is the revolutionary thing ever happens in the human history. it help user to get information and knowledge about various things from one mouse click

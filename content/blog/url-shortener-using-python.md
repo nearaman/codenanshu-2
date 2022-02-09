@@ -3,10 +3,9 @@ title: Url Shortener Using Python
 description: Hello Techies, In this blog we will be creating a URL shortener
   with Python. that help
 date: 2021-09-16
-image: ./url-shortener.webp
 slug: url-shortener-using-python
 category: blog
-thumbnail: ../assets/url-shortener.webp
+image: ../assets/url-shortener.webp
 ---
 
 Hello Techies, In this blog we will be creating a URL shortener with Python. Let's get Started.

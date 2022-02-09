@@ -4,10 +4,9 @@ description: Handling keyboard shortcuts in JavaScript Keyboard shortcuts are
   not only for desktop applications. You can also create shortcuts for web
   applications,
 date: 2021-07-11
-image: ./Handling-keyboard-shortcuts-in-JavaScript.png
 slug: create-keyboard-shortcut-in-javascript
 category: tutorials
-thumbnail: ../assets/create-keyboard-shortcut-in-javascript.png
+image: ../assets/create-keyboard-shortcut-in-javascript.png
 ---
 
 Keyboard shortcuts are not only for desktop applications. You can also create shortcuts for web applications, which can come in handly in your MPA or SPA apps. Read on to find out how to create keyboard shortcuts in JavaScript.

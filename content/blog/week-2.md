@@ -2,10 +2,9 @@
 title: Developer Week 2 Newsletter August 2021
 description: august week 1, get all news related to this week and get you knowladge a boost
 date: 2021-08-13
-image: ./august-week-2.webp
 slug: developer-newslatter-for-week-2-august-2021
 category: blog
-thumbnail: ../assets/august-week-2.webp
+image: ../assets/august-week-2.webp
 ---
 
 well, this is the second week of august and there are lots more things are came out and now we are able to see these thing in this post. so hi everyone my name in **Ai Anshu** and i am your host in this article.

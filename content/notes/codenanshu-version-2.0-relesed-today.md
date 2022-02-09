@@ -2,10 +2,9 @@
 title: CodeNanshu ^2.0 is released today
 description: what and why i release version 2.0 of codenanshu with new stack complete story
 date: Fri Dec 10 2021
-image: ./hero.webp
 slug: codenanshu-version-2.0-relesed-today
 category: notes
-thumbnail: ../assets/codenanshu-version-2.0-relesed-today.webp
+image: ../assets/codenanshu-version-2.0-relesed-today.webp
 ---
 hi everyone,
 

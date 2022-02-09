@@ -2,10 +2,9 @@
 title: save your time in CSS gradients with some amazing websites
 description: some amazing CSS gradients website
 date: 2021-07-09
-image: ./hero.jpeg
 slug: cssgradients-for-web-devlopers
 category: blog
-thumbnail: ../assets/cssgradients-for-web-devlopers.jpeg
+image: ../assets/cssgradients-for-web-devlopers.jpeg
 ---
 
 have you ever work with CSS gradients in your web development as you know that there are so many ways to add gradients in your website and today in this article i will provide some amazing website that help you to work better then before. so lets get started and without wasting our time lets check all website one by one

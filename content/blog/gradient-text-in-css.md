@@ -2,10 +2,9 @@
 title: Gradient Text In CSS
 description: how to gradient text in CSS that looks amazing in the website
 date: 2021-07-09
-image: ./hero.jpeg
 slug: gradient-text-in-css
 category: blog
-thumbnail: ../assets/gradient-text-in-css.jpeg
+image: ../assets/gradient-text-in-css.jpeg
 ---
 
 this is really short post from me i know that YouTube started short video so i want to share short but an amazing idea with you checkout this code snippet this is you to gradient your Text In CSS

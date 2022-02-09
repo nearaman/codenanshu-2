@@ -3,10 +3,9 @@ title: Create a Blog With Hugo in 10 Minutes
 description: create a blog with hugo and deploy to github pages for free no need
   to download wordpress
 date: 2021-08-19
-image: ./hugo.webp
 slug: create-blog-with-hugo-in-10-minutes
 category: tutorials
-thumbnail: ../assets/create-blog-with-hugo-in-10-minutes.webp
+image: ../assets/create-blog-with-hugo-in-10-minutes.webp
 ---
 
 hugo 👋🏼 is one of the most powerful open source static site generator with its amazing speed and flexibility.

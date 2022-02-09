@@ -2,10 +2,9 @@
 title: Synchronous vs asynchronous programming and their use cases
 description: Synchronous and asynchronous
 date: 2021-07-09
-image: ./hero.jpeg
 slug: synchronous-vs-asynchronous-and-their-use-cases
 category: blog
-thumbnail: ../assets/synchronous-vs-asynchronous-and-their-use-cases.jpeg
+image: ../assets/synchronous-vs-asynchronous-and-their-use-cases.jpeg
 ---
 
 ## Synchronous vs asynchronous programming and their use cases

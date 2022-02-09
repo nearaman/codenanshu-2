@@ -9,11 +9,7 @@ public_folder: ../assets
 collections:
   - name: blog
     label: Blog
-<<<<<<< HEAD
     folder: content/blog
-=======
-    folder: content/blog/**
->>>>>>> 8edecaf8062f107c76fe9fc81633a0b06eaf59b8
     create: true
     fields:
       - { name: title, label: Title }
@@ -21,7 +17,7 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: slug, label: slug }
       - { label: "Category", name: "category", widget: "select", options: ["blog", "tutorials", "notes"], default: "blog" }
-      - { label: "Image", name: "thumbnail", widget: "image", choose_url: true, media_library: { config: { multiple: false }}}
+      - { label: "Image", name: "image", widget: "image", choose_url: true, media_library: { config: { multiple: false }}}
       - { name: body, label: Body, widget: markdown }
   - name: notes
     label: Notes
@@ -33,7 +29,7 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: slug, label: slug }
       - { label: "Category", name: "category", widget: "select", options: ["blog", "tutorials", "notes"], default: "tutorials"}
-      - { label: "Image", name: "thumbnail", widget: "image", choose_url: true, media_library: { config: { multiple: false }}}
+      - { label: "Image", name: "image", widget: "image", choose_url: true, media_library: { config: { multiple: false }}}
       - { name: body, label: Body, widget: markdown }
   - name: tutorials
     label: Tutorials
@@ -42,13 +38,8 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: description, label: Description }
-<<<<<<< HEAD
       - { name: date, label: Date, widget: date }
       - { name: slug, label: slug }
       - { label: "Category", name: "category", widget: "select", options: ["blog", "tutorials", "notes"], default: "notes" }
-      - { label: "Image", name: "thumbnail", widget: "image", choose_url: true, media_library: { config: { multiple: false }}}
+      - { label: "Image", name: "image", widget: "image", choose_url: true, media_library: { config: { multiple: false }}}
       - { name: body, label: Body, widget: markdown }
-=======
-      - { name: image, label: Image }
-      - { name: body, label: Body, widget: markdown }
->>>>>>> 8edecaf8062f107c76fe9fc81633a0b06eaf59b8

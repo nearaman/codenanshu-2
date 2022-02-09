@@ -2,10 +2,9 @@
 title: Do This in Js Before You Write React
 description: things to learn in Javascript before wirte code in React JS
 date: 2021-08-22
-image: ./Do This In JS Before You React.webp
 slug: do-this-in-js-before-you-write-react
 category: blog
-thumbnail: ../assets/do-this-in-js-before-you-write-react.webp
+image: ../assets/do-this-in-js-before-you-write-react.webp
 ---
 
 So you have started your journey in the web development; awesome. You already know some HTML and CSS that's great. The obvious next step is you must have started learning JavaScript, didn't you? So now you been learning JavaScript for a bit and whilst the process you came across hot terminologies like 'framework' , 'React' that everyone's been talking about. The next thing you know is you left JS in between and jumped on the bandwagon to learn React. Fast forward few months, you end up feeling lost. And yes, you guessed that right, this is the story of my life too, for better or for worse.  

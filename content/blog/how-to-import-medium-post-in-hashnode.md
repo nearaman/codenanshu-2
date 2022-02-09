@@ -2,10 +2,9 @@
 title: How to import medium post in hashnode?
 description: import medium blogs to Hashnode
 date: 2021-07-09
-image: ./hero.jpeg
 slug: how-to-import-medium-post-in-hashnode
 category: blog
-thumbnail: ../assets/how-to-import-medium-post-in-hashnode.jpeg
+image: ../assets/how-to-import-medium-post-in-hashnode.jpeg
 ---
 
 Writers and bloggers love readers like fish love water. So when platforms like Medium.com and Svbtle launched, it was an easy way for them to publish articles, blog posts, and art-directed stories that had the immediate potential for thousands of reads just by being posted to one of those sites.

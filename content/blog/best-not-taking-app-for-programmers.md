@@ -2,7 +2,7 @@
 title: "Absolutely Best Note Taking Tool Ever Made For Programmers"
 date: "2021-07-09"
 description: "save your daily solution online"
-image: ./best-note-taking-app.jpg
+image: ../assets/best-note-taking-app.jpg
 slug: "best-not-taking-app-for-programmers"
 category: "blog"
 ---

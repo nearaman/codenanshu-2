@@ -2,10 +2,9 @@
 title: Download Node JS in Ubuntu With NVM
 description: fastest way to install latest node JS in Ubuntu
 date: 2021-07-09
-image: ./hero.jpeg
 slug: download-nodejs-in-ubuntu
 category: blog
-thumbnail: ../assets/download-nodejs-in-ubuntu.jpeg
+image: ../assets/download-nodejs-in-ubuntu.jpeg
 ---
 
 one of the common problem i face is i am not able to install node JS in my Ubuntu the process is not to easy first i go to the node's website and then install the tar package file and then type several commands to install the node js.

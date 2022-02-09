@@ -2,10 +2,9 @@
 title: Why Programmers Love Python
 description: why programmers use python for there task's
 date: 2021-07-09
-image: ./hero.jpeg
 slug: why-programmers-love-python
 category: blog
-thumbnail: ../assets/why-programmers-love-python.jpeg
+image: ../assets/why-programmers-love-python.jpeg
 ---
 
 Python is really amazing programming language it provide so many feature for programmers to write code and done there task fast as possible its OK but the the question is why programmers love python

@@ -3,10 +3,9 @@ title: Index of JavaScript Books PDF - learn JavaScript
 description: index of JavaScript books PDF that are highly recommended for every
   web developer to read and learn much more from these
 date: Fri Dec 17 2021
-image: ./hero.jpg
 slug: index-of-javascript-books
 category: blog
-thumbnail: ../assets/index-of-javascript-books.jpg
+image: ../assets/index-of-javascript-books.jpg
 ---
 
 Always bet on JavaScript because it's the only language for web development. javaScript developer never got hungry because its work on front-end web development or the back end developer with nodejs and deno. it used to create mobile application with React Native and use to create desktop application with electron and much more in this aricle i am going to share some index of javascript books.
