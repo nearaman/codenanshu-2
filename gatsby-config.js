@@ -4,7 +4,8 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-const config = require("./config.json");
+// const config = require("./config.json");
+require('dotenv').config();
 
 module.exports = {
   /* Your site config here */
@@ -85,15 +86,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
-        appId: config.ALGOLIA_APP_ID,
-        apiKey: config.ALGOLIA_ADMIN_KEY,
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
         queries: require("./src/components/utils/algolia-queries"),
       },
     },
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
-        endpoint: config.MAILCHIMP_ENDPOINT,
+        endpoint: process.env.MAILCHIMP_ENDPOINT,
       },
     },
   ],

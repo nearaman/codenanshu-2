@@ -1,6 +1,7 @@
-const config = require("../../../config.json");
+// const config = require("../../../config.json");
+require('dotenv').config();
 
-const indexName = config.ALGOLIA_INDEX_NAME;
+const indexName = process.env.ALGOLIA_INDEX_NAME;
 
 const pageQuery = `
 query search {
