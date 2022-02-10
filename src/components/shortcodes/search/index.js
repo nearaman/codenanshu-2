@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import algoliasearch from "algoliasearch/lite";
 import { Dialog } from "@headlessui/react";
 import { Link } from "gatsby";
-import config from "../../../../config.json";
+// import config from "../../../../config.json";
 
 export default function Search() {
   const [isOpen, setIsOpen] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
 
   const searchClient = algoliasearch(
-    config.ALGOLIA_APP_ID,
-    config.ALGOLIA_SEARCH_KEY
+    process.env.ALGOLIA_APP_ID,
+    process.env.ALGOLIA_SEARCH_KEY
   );
 
-  const search_client = searchClient.initIndex(config.ALGOLIA_INDEX_NAME);
+  const search_client = searchClient.initIndex(process.env.ALGOLIA_INDEX_NAME);
   const requestOptions = {};
 
   function closeModal() {
